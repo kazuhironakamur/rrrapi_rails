@@ -1,0 +1,2 @@
+class Systba < ApplicationRecord
+end

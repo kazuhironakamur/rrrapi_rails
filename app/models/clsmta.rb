@@ -1,0 +1,2 @@
+class Clsmta < ApplicationRecord
+end

@@ -1,0 +1,16 @@
+default: &default
+ adapter: oracle_enhanced
+ database: rrr-db.dad-way.local:1521/ORCL
+ pool: 5
+ timeout: 5000
+ username: dad_usr1
+ password: p
+
+development:
+ <<: *default
+
+test:
+ <<: *default
+
+production:
+ <<: *default
